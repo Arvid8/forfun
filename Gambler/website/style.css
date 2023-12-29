@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Roboto Slab', serif;
+  background: #202225;
+  /*-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    pointer-events: none;*/
+}
+#container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  min-width: 600px;
+}
+#text {
+  font-size: 72px;
+  color: white;
+  white-space: nowrap;
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#desc {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 55%;
+  height: 60%;
+  width: 40%;
+  overflow: hidden;
+}
+iframe {
+  border: 1px black solid;
+  border-radius: 5px;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  height: 60%;
+  width: 40%;
+}
+@media screen and (max-width: 1200px) {
+  #desc {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #desc {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #desc {
+    font-size: 14px;
+  }
+}

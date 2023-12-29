@@ -1,0 +1,43 @@
+[Sat Jun 11 20:10:48.822429 2016] [mpm_prefork:notice] [pid 5086] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.17 configured -- resuming normal operations
+[Sat Jun 11 20:10:48.822482 2016] [core:notice] [pid 5086] AH00094: Command line: 'apache2'
+[Sat Jun 11 23:48:44.121613 2016] [core:info] [pid 5116] [client 10.240.1.4:53806] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://kod-till-duschen-arvid8.c9users.io/?_c9_id=livepreview0&_c9_host=https://ide.c9.io
+[Sat Jun 11 23:48:48.447716 2016] [core:info] [pid 5116] [client 10.240.0.110:37522] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico
+[Sat Jun 11 23:48:48.479675 2016] [core:info] [pid 5111] [client 10.240.0.203:60168] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico
+[Sat Jun 11 23:48:49.064666 2016] [core:info] [pid 5113] [client 10.240.0.188:43700] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://kod-till-duschen-arvid8.c9users.io/?_c9_id=livepreview0&_c9_host=https://ide.c9.io
+[Sun Jun 12 00:05:49.528545 2016] [core:info] [pid 5114] [client 10.240.0.206:56282] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico
+[Sun Jun 12 00:05:49.554568 2016] [core:info] [pid 69473] [client 10.240.0.179:39634] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico
+[Sun Jun 12 00:09:49.470645 2016] [core:info] [pid 5116] [client 10.240.0.204:43464] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico
+[Sun Jun 12 00:09:50.076032 2016] [core:info] [pid 5112] [client 10.240.0.203:40920] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico
+[Sun Jun 12 00:09:50.208981 2016] [core:info] [pid 5116] [client 10.240.0.110:52466] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico
+[Sun Jun 12 12:39:59.440856 2016] [core:warn] [pid 3567] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 12 12:39:59.447484 2016] [mpm_prefork:notice] [pid 3567] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.17 configured -- resuming normal operations
+[Sun Jun 12 12:39:59.447529 2016] [core:notice] [pid 3567] AH00094: Command line: 'apache2'
+[Sun Jun 12 12:40:00.476605 2016] [core:info] [pid 3581] [client 10.240.0.15:34102] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://kod-till-duschen-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https%3A%2F%2Fide.c9.io
+[Sun Jun 12 13:01:30.402258 2016] [core:info] [pid 3581] [client 10.240.1.4:48696] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://kod-till-duschen-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Sun Jun 12 13:03:00.557715 2016] [core:info] [pid 3581] [client 10.240.0.225:52840] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://kod-till-duschen-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Sun Jun 12 16:43:26.967191 2016] [core:warn] [pid 2858] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 12 16:43:26.972003 2016] [mpm_prefork:notice] [pid 2858] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.17 configured -- resuming normal operations
+[Sun Jun 12 16:43:26.972048 2016] [core:notice] [pid 2858] AH00094: Command line: 'apache2'
+[Sun Jun 12 16:43:29.861526 2016] [mpm_prefork:notice] [pid 2858] AH00169: caught SIGTERM, shutting down
+[Sun Jun 12 16:43:32.459438 2016] [mpm_prefork:notice] [pid 3409] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.17 configured -- resuming normal operations
+[Sun Jun 12 16:43:32.459516 2016] [core:notice] [pid 3409] AH00094: Command line: 'apache2'
+[Sun Jun 12 21:13:43.908842 2016] [core:info] [pid 3417] [client 10.240.0.225:60724] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://kod-till-duschen-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Mon Jun 13 06:32:06.905114 2016] [core:warn] [pid 2238] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 13 06:32:06.910748 2016] [mpm_prefork:notice] [pid 2238] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.17 configured -- resuming normal operations
+[Mon Jun 13 06:32:06.910807 2016] [core:notice] [pid 2238] AH00094: Command line: 'apache2'
+[Mon Jun 13 18:50:41.014717 2016] [core:warn] [pid 1951] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 13 18:50:41.021564 2016] [mpm_prefork:notice] [pid 1951] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.17 configured -- resuming normal operations
+[Mon Jun 13 18:50:41.021600 2016] [core:notice] [pid 1951] AH00094: Command line: 'apache2'
+[Mon Jun 13 18:50:41.048024 2016] [core:info] [pid 1964] [client 10.240.0.185:50036] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://kod-till-duschen-arvid8.c9users.io/?_c9_id=livepreview0&_c9_host=https://ide.c9.io
+[Mon Jun 13 18:50:43.669951 2016] [mpm_prefork:notice] [pid 1951] AH00169: caught SIGTERM, shutting down
+[Mon Jun 13 18:50:45.916550 2016] [mpm_prefork:notice] [pid 2510] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.17 configured -- resuming normal operations
+[Mon Jun 13 18:50:45.916619 2016] [core:notice] [pid 2510] AH00094: Command line: 'apache2'
+[Thu Jun 08 13:14:55.817678 2017] [core:warn] [pid 2581] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 08 13:14:55.823784 2017] [mpm_prefork:notice] [pid 2581] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.17 configured -- resuming normal operations
+[Thu Jun 08 13:14:55.823840 2017] [core:notice] [pid 2581] AH00094: Command line: 'apache2'
+[Thu Jun 08 13:15:11.204684 2017] [core:info] [pid 2611] [client 10.240.1.18:57854] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://kod-till-duschen-arvid8.c9users.io/
+[Tue Mar 20 19:29:41.104483 2018] [core:warn] [pid 3534] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 20 19:29:41.110689 2018] [mpm_prefork:notice] [pid 3534] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.17 configured -- resuming normal operations
+[Tue Mar 20 19:29:41.110767 2018] [core:notice] [pid 3534] AH00094: Command line: 'apache2'
+[Tue Mar 20 19:29:48.170634 2018] [core:info] [pid 3616] [client 10.240.0.87:46224] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://kod-till-duschen-arvid8.c9users.io/
+[Tue Mar 20 19:30:06.547808 2018] [core:info] [pid 3616] [client 10.240.0.88:52022] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://kod-till-duschen-arvid8.c9users.io/

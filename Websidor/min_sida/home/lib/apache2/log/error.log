@@ -1,0 +1,89 @@
+[Tue Jan 26 11:30:57.802702 2016] [core:info] [pid 2172] [client 10.240.0.168:43130] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview2&_c9_host=https://ide.c9.io
+[Tue Jan 26 11:30:57.806416 2016] [mpm_prefork:notice] [pid 2166] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Jan 26 11:30:57.806473 2016] [core:notice] [pid 2166] AH00094: Command line: 'apache2'
+[Tue Jan 26 11:30:58.961633 2016] [core:info] [pid 2173] [client 10.240.0.121:47552] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico
+[Tue Jan 26 11:31:00.210851 2016] [core:info] [pid 2172] [client 10.240.0.174:46638] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico
+[Tue Jan 26 11:31:31.758457 2016] [mpm_prefork:notice] [pid 2166] AH00169: caught SIGTERM, shutting down
+[Tue Jan 26 11:31:37.703086 2016] [mpm_prefork:notice] [pid 2560] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Jan 26 11:31:37.703149 2016] [core:notice] [pid 2560] AH00094: Command line: 'apache2'
+[Tue Jan 26 11:31:51.130216 2016] [mpm_prefork:notice] [pid 2560] AH00169: caught SIGTERM, shutting down
+[Tue Jan 26 11:34:26.040820 2016] [mpm_prefork:notice] [pid 2883] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Jan 26 11:34:26.040919 2016] [core:notice] [pid 2883] AH00094: Command line: 'apache2'
+[Tue Jan 26 12:48:26.249986 2016] [core:info] [pid 2890] [client 10.240.0.174:35344] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview5&_c9_host=https%3A%2F%2Fide.c9.io
+[Tue Jan 26 12:48:32.744038 2016] [core:info] [pid 2892] [client 10.240.0.121:49540] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico
+[Tue Jan 26 15:21:32.368163 2016] [core:info] [pid 2889] [client 10.240.0.168:57770] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview0&_c9_host=https://ide.c9.io
+[Tue Jan 26 15:34:26.163927 2016] [mpm_prefork:notice] [pid 2883] AH00169: caught SIGTERM, shutting down
+[Tue Jan 26 15:36:28.280412 2016] [mpm_prefork:notice] [pid 4263] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Jan 26 15:36:28.280552 2016] [core:notice] [pid 4263] AH00094: Command line: 'apache2'
+[Fri Jan 29 19:46:33.162285 2016] [core:info] [pid 4273] [client 10.240.0.175:34836] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview0&_c9_host=https://ide.c9.io
+[Mon Feb 01 07:23:07.573657 2016] [core:warn] [pid 1465] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 01 07:23:07.583109 2016] [mpm_prefork:notice] [pid 1465] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Mon Feb 01 07:23:07.583148 2016] [core:notice] [pid 1465] AH00094: Command line: 'apache2'
+[Mon Feb 01 07:23:09.321620 2016] [core:info] [pid 1530] [client 10.240.0.176:56092] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview0&_c9_host=https://ide.c9.io
+[Mon Feb 01 08:41:36.253734 2016] [core:info] [pid 1529] [client 10.240.0.177:47632] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview0&_c9_host=https://ide.c9.io
+[Mon Feb 01 09:04:36.206040 2016] [core:info] [pid 1530] [client 10.240.0.196:60568] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview0&_c9_host=https://ide.c9.io
+[Wed Feb 03 07:06:40.734539 2016] [core:info] [pid 1528] [client 10.240.0.174:48020] AH00128: File does not exist: /home/ubuntu/workspace/Bilder/breadInSquare1.jpg, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Wed Feb 03 07:06:40.741199 2016] [core:info] [pid 1527] [client 10.240.0.173:44512] AH00128: File does not exist: /home/ubuntu/workspace/Bilder/halfBreadInSquare1.jpg, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Wed Feb 03 07:06:40.761113 2016] [core:info] [pid 1526] [client 10.240.0.181:57076] AH00128: File does not exist: /home/ubuntu/workspace/Bilder/halfBreadInSquare2.jpg, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Wed Feb 03 07:06:40.780531 2016] [core:info] [pid 1529] [client 10.240.0.168:57744] AH00128: File does not exist: /home/ubuntu/workspace/Bilder/breadInSquare2.jpg, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Wed Feb 03 07:06:43.443178 2016] [core:info] [pid 1528] [client 10.240.0.15:55568] AH00128: File does not exist: /home/ubuntu/workspace/Bilder/breadInSquare1.jpg, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Wed Feb 03 07:06:43.448930 2016] [core:info] [pid 1527] [client 10.240.0.181:57110] AH00128: File does not exist: /home/ubuntu/workspace/Bilder/halfBreadInSquare1.jpg, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Wed Feb 03 07:06:43.452385 2016] [core:info] [pid 1526] [client 10.240.0.188:53704] AH00128: File does not exist: /home/ubuntu/workspace/Bilder/halfBreadInSquare2.jpg, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Wed Feb 03 07:06:43.453884 2016] [core:info] [pid 1529] [client 10.240.0.177:60420] AH00128: File does not exist: /home/ubuntu/workspace/Bilder/breadInSquare2.jpg, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Wed Feb 03 07:06:43.705726 2016] [core:info] [pid 1530] [client 10.240.0.188:53708] AH00128: File does not exist: /home/ubuntu/workspace/Bilder/breadInSquare1.jpg, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Wed Feb 03 07:06:43.923655 2016] [core:info] [pid 1532] [client 10.240.0.174:48068] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Wed Feb 03 07:07:02.006443 2016] [core:info] [pid 1528] [client 10.240.0.188:54008] AH00128: File does not exist: /home/ubuntu/workspace/Bilder/breadInSquare1.jpg, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Wed Feb 03 07:07:02.014221 2016] [core:info] [pid 1529] [client 10.240.0.174:48396] AH00128: File does not exist: /home/ubuntu/workspace/Bilder/halfBreadInSquare1.jpg, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Wed Feb 03 07:07:02.014676 2016] [core:info] [pid 1527] [client 10.240.0.177:60522] AH00128: File does not exist: /home/ubuntu/workspace/Bilder/halfBreadInSquare2.jpg, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Wed Feb 03 07:07:02.014842 2016] [core:info] [pid 1530] [client 10.240.0.168:57946] AH00128: File does not exist: /home/ubuntu/workspace/Bilder/breadInSquare2.jpg, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Wed Feb 03 07:07:40.330444 2016] [mpm_prefork:notice] [pid 1465] AH00169: caught SIGTERM, shutting down
+[Wed Feb 03 17:27:36.617524 2016] [mpm_prefork:notice] [pid 4217] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Wed Feb 03 17:27:36.617636 2016] [core:notice] [pid 4217] AH00094: Command line: 'apache2'
+[Wed Feb 03 17:27:39.907407 2016] [core:info] [pid 4228] [client 10.240.0.188:46338] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview0&_c9_host=https://ide.c9.io
+[Sat Feb 13 23:42:09.501268 2016] [core:warn] [pid 3028] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 13 23:42:09.503417 2016] [core:info] [pid 3075] [client 10.240.0.177:52130] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview1&_c9_host=https://ide.c9.io
+[Sat Feb 13 23:42:09.506783 2016] [mpm_prefork:notice] [pid 3028] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sat Feb 13 23:42:09.506823 2016] [core:notice] [pid 3028] AH00094: Command line: 'apache2'
+[Sat Feb 13 23:43:00.182165 2016] [core:info] [pid 3080] [client 10.240.0.176:42874] AH00128: File does not exist: /home/ubuntu/workspace/url, referer: https://ide.c9.io/arvid8/min_sida
+[Sat Feb 13 23:43:51.313349 2016] [core:info] [pid 3075] [client 10.240.0.174:57356] AH00128: File does not exist: /home/ubuntu/workspace/url, referer: https://ide.c9.io/arvid8/min_sida
+[Tue Feb 16 20:47:17.282482 2016] [core:warn] [pid 2090] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Feb 16 20:47:17.289789 2016] [mpm_prefork:notice] [pid 2090] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Feb 16 20:47:17.289830 2016] [core:notice] [pid 2090] AH00094: Command line: 'apache2'
+[Tue Feb 16 20:47:17.555151 2016] [core:info] [pid 2104] [client 10.240.0.174:45824] AH00128: File does not exist: /home/ubuntu/workspace/Styles/css/menu-style.css, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview0&_c9_host=https://ide.c9.io
+[Tue Feb 16 20:47:17.769597 2016] [core:info] [pid 2105] [client 10.240.0.196:41338] AH00128: File does not exist: /home/ubuntu/workspace/Styles/css/style.css, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview0&_c9_host=https://ide.c9.io
+[Tue Feb 16 20:47:18.847141 2016] [core:info] [pid 2104] [client 10.240.0.196:41384] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview0&_c9_host=https://ide.c9.io
+[Fri Feb 19 15:52:24.922715 2016] [core:warn] [pid 2305] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Feb 19 15:52:24.929288 2016] [mpm_prefork:notice] [pid 2305] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Feb 19 15:52:24.929323 2016] [core:notice] [pid 2305] AH00094: Command line: 'apache2'
+[Fri Feb 19 15:52:29.099674 2016] [core:info] [pid 2352] [client 10.240.0.177:34678] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://min-sida-arvid8.c9users.io/?_c9_id=livepreview0&_c9_host=https://ide.c9.io
+[Fri Feb 19 18:41:30.409055 2016] [core:info] [pid 2355] [client 10.240.0.173:32778] AH00128: File does not exist: /home/ubuntu/workspace/Styles/style.css, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:41:30.575266 2016] [core:info] [pid 2352] [client 10.240.0.173:32790] AH00128: File does not exist: /home/ubuntu/workspace/Script/SmoothMovement.js, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:41:30.578077 2016] [core:info] [pid 2353] [client 10.240.0.188:53588] AH00128: File does not exist: /home/ubuntu/workspace/Styles/menu-style.css, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:41:36.959019 2016] [core:info] [pid 2356] [client 10.240.0.188:53924] AH00128: File does not exist: /home/ubuntu/workspace/Styles/style.css, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:41:37.078278 2016] [core:info] [pid 2355] [client 10.240.0.188:53930] AH00128: File does not exist: /home/ubuntu/workspace/Styles/menu-style.css, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:41:37.136191 2016] [core:info] [pid 2352] [client 10.240.0.185:59862] AH00128: File does not exist: /home/ubuntu/workspace/Script/SmoothMovement.js, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:41:39.800233 2016] [core:info] [pid 2355] [client 10.240.0.173:33052] AH00128: File does not exist: /home/ubuntu/workspace/Styles/style.css, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:41:39.800268 2016] [core:info] [pid 2358] [client 10.240.0.174:34636] AH00128: File does not exist: /home/ubuntu/workspace/Script/SmoothMovement.js, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:41:39.802687 2016] [core:info] [pid 2352] [client 10.240.0.185:59920] AH00128: File does not exist: /home/ubuntu/workspace/Styles/menu-style.css, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:41:41.987500 2016] [core:info] [pid 2353] [client 10.240.0.174:34668] AH00128: File does not exist: /home/ubuntu/workspace/Styles/menu-style.css, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:41:41.992486 2016] [core:info] [pid 2352] [client 10.240.0.188:54050] AH00128: File does not exist: /home/ubuntu/workspace/Script/SmoothMovement.js, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:41:41.992484 2016] [core:info] [pid 2374] [client 10.240.0.188:54048] AH00128: File does not exist: /home/ubuntu/workspace/Styles/style.css, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:42:18.568551 2016] [core:info] [pid 2353] [client 10.240.0.188:55252] AH00128: File does not exist: /home/ubuntu/workspace/Styles/style.css, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:42:18.670752 2016] [core:info] [pid 2358] [client 10.240.0.188:55262] AH00128: File does not exist: /home/ubuntu/workspace/Styles/menu-style.css, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:42:18.741546 2016] [core:info] [pid 2374] [client 10.240.0.188:55268] AH00128: File does not exist: /home/ubuntu/workspace/Script/SmoothMovement.js, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:42:58.007123 2016] [core:info] [pid 2353] [client 10.240.0.168:56396] AH00128: File does not exist: /home/ubuntu/workspace/Styles/style.css, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:42:58.113343 2016] [core:info] [pid 2374] [client 10.240.0.168:56402] AH00128: File does not exist: /home/ubuntu/workspace/Styles/menu-style.css, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:42:58.176640 2016] [core:info] [pid 2352] [client 10.240.0.185:32896] AH00128: File does not exist: /home/ubuntu/workspace/Script/SmoothMovement.js, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:48:24.678036 2016] [core:info] [pid 2358] [client 10.240.0.215:54782] AH00128: File does not exist: /home/ubuntu/workspace/Styles/style.css, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:48:24.787903 2016] [core:info] [pid 2352] [client 10.240.0.185:35290] AH00128: File does not exist: /home/ubuntu/workspace/Styles/menu-style.css, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Fri Feb 19 18:48:24.862917 2016] [core:info] [pid 2356] [client 10.240.0.181:34206] AH00128: File does not exist: /home/ubuntu/workspace/Script/SmoothMovement.js, referer: https://min-sida-arvid8.c9users.io/historia.html
+[Wed Mar 16 12:30:22.719452 2016] [core:warn] [pid 2592] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 16 12:30:22.724331 2016] [mpm_prefork:notice] [pid 2592] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Wed Mar 16 12:30:22.724382 2016] [core:notice] [pid 2592] AH00094: Command line: 'apache2'
+[Wed Mar 16 12:34:14.150811 2016] [core:info] [pid 2644] [client 10.240.0.175:46424] AH00128: File does not exist: /home/ubuntu/workspace/hittahit.html, referer: https://ide.c9.io/arvid8/min_sida
+[Wed Mar 16 12:34:14.719412 2016] [core:info] [pid 2662] [client 10.240.0.177:57618] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://min-sida-arvid8.c9users.io/hittahit.html
+[Wed Mar 16 12:34:16.350272 2016] [core:info] [pid 2663] [client 10.240.0.196:40700] AH00128: File does not exist: /home/ubuntu/workspace/hittahit.html, referer: https://ide.c9.io/arvid8/min_sida
+[Wed Mar 16 12:34:33.322273 2016] [core:info] [pid 2647] [client 10.240.0.168:35816] AH00128: File does not exist: /home/ubuntu/workspace/hittahit.html
+[Sun Aug 07 01:50:37.954636 2016] [core:warn] [pid 1309] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Aug 07 01:50:37.959589 2016] [mpm_prefork:notice] [pid 1309] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Aug 07 01:50:37.959621 2016] [core:notice] [pid 1309] AH00094: Command line: 'apache2'

@@ -1,0 +1,106 @@
+   body {
+   background-color: #ffff99;
+   }
+  
+   h1 {
+   font-family:verdana, sans-serif;
+   text-align:center;
+   }
+
+   h2 {
+   font-family:verdana, sans-serif;
+   }
+
+   h3 {
+   font-family:verdana, sans-serif;
+   font-weight: bold;
+   }
+   
+   .red {
+   color:red;
+   }
+
+   .mosaic {
+   text-align:center;
+   }
+
+   .mosiacram {
+   width: 300px;
+   border-width: 2px;
+   border-style: solid;
+   }
+
+   .textmosaic {
+   text-align:center;
+   }
+
+   p {
+   font-family: arial, sans-serif;
+   font-size: 12px;
+   }
+
+   .green {
+   color:green;
+   }
+
+   strong {
+   font-size: 16px;
+   }
+
+   b {
+   font-size: 16px;
+   }
+
+   .blue {
+   color:blue;
+   }
+
+   .yellow {
+   color:yellow;
+   }
+
+   .sträck1 {
+   width: 50%;
+   margin-left: 0px;
+   }
+
+   .sträck2 {
+   width: 80%;
+   margin-right: 0px;
+   }
+
+   .lista {
+   list-style-type: lower-alpha;
+   font-family: arial, sans-serif;
+   font-size: 12px;
+   }
+
+   .signatur {
+   text-align: center;
+   }
+
+   .bg_green {
+   background-color: #00ff00;
+   }
+
+   .textbörjan {
+   background-color: red;
+   font-size: 16px;
+   font-weight: bold;
+   }
+
+   .kod {
+   font-family: "Courier New";
+   }
+
+   a {
+   color: #666666;
+   font-size: 16px;
+   text-decoration: none;
+   color: gray;
+   }
+
+   a:hover {
+   text-decoration:underline overline;
+   }
+   

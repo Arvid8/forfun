@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/appBlue</item>
+        <item name="colorPrimaryDark">@color/appBlue</item>
+        <item name="colorControlNormal">@color/appOrange</item>
+        <item name="colorControlActivated">@color/appOrange</item>
+        <item name="colorControlHighlight">@color/appOrange</item>
+        <!--<item name="android:navigationBarColor" tools:targetApi="21">@color/appOrange</item>-->
+    </style>
+
+</resources>

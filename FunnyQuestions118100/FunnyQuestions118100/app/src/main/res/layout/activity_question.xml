@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuestionActivity">
+
+    <TextView
+        android:id="@+id/space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/counter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/l2_nextButton" />
+
+    <View
+        android:id="@+id/fakeView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/l2_nextButton"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_above="@+id/menu_OrangeBild"
+        android:layout_alignLeft="@+id/fakeView"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/l2_backButton"
+        android:backgroundTint="@color/appBlue"
+        android:text="@string/question_nästa_fråga"
+        android:textColor="@color/appVit"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/l2_backButton"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_above="@+id/menu_OrangeBild"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/fakeView"
+        android:backgroundTint="@color/appOrange"
+        android:text="@string/question_tillbaka"
+        android:textColor="@color/appVit"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/menu_OrangeBild"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-2dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/orange" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/l2_nextButton"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/appSvart"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/counter"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="50dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignBottom="@+id/svar"
+            android:layout_above="@id/svar">
+
+            <TextView
+                android:id="@+id/fråga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="5dp"
+                android:text="@string/question_fråga"
+                android:textColor="@color/appGrå"
+                android:textSize="20sp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/fråga"
+                android:layout_marginBottom="35dp"
+                android:fadeScrollbars="false"
+                android:scrollbars="vertical">
+
+                <TextView
+                    android:id="@+id/l2_questionText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textColor="@color/appSvart"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </ScrollView>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/svar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="150dp"
+            android:text="@string/question_svar"
+            android:textColor="@color/appGrå"
+            android:textSize="20sp" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/svar"
+
+            android:fadeScrollbars="false"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:id="@+id/l2_answerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/appSvart"
+                android:textSize="22sp" />
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>
+

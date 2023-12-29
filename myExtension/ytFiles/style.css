@@ -1,0 +1,17 @@
+.extend-fullscreen {
+    width: 1280px !important;
+    height: 720px !important;
+    left: 0px !important;
+}
+
+.mRest {
+    margin-top: 250px !important;
+}
+
+.mStuff {
+    margin-top: 413px !important;
+}
+
+#watch7-content > div:nth-child(1) {
+    z-index: 1 !important;
+}

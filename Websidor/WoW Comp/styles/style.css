@@ -1,0 +1,331 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400);
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+.deathknight {
+  color: #C41F3B;
+}
+.druid {
+  color: #FF7D0A;
+}
+.demon_hunter {
+  color: #A330C9;
+}
+.hunter {
+  color: #ABD473;
+}
+.mage {
+  color: #69CCF0;
+}
+.monk {
+  color: #008467;
+}
+.paladin {
+  color: #F58CBA;
+}
+.priest {
+  color: #FFFFFF;
+}
+.rogue {
+  color: #FFF569;
+}
+.shaman {
+  color: #2459FF;
+}
+.warlock {
+  color: #9482CA;
+}
+.warrior {
+  color: #C79C6E;
+}
+td.glow.deathknight,
+td.glow.druid,
+td.glow.demon_hunter,
+td.glow.hunter,
+td.glow.mage,
+td.glow.monk,
+td.glow.paladin,
+td.glow.priest,
+td.glow.rogue,
+td.glow.shaman,
+td.glow.warlock,
+td.glow.warrior,
+#leftTable > tbody > tr:not(:first-child) > td {
+  cursor: pointer;
+}
+body {
+  height: 100vh;
+  width: 100vw !important;
+  font-family: 'Verdana', serif;
+  overflow: hidden;
+  background: #333;
+  color: white;
+  min-width: 1000px;
+}
+#container {
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
+}
+#lootreminder {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: -50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: all 0.5s ease-in-out;
+  background: #333;
+  z-index: 10;
+}
+.lootNer {
+  top: 50% !important;
+}
+.pil {
+  cursor: pointer;
+  border-right: 12px solid white;
+  border-bottom: 12px solid white;
+  color: transparent;
+  width: 2vw;
+  height: 2vw;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+}
+.pilNer {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.pilUpp {
+  transform: translate(-50%, -50%) rotate(225deg);
+}
+#backspace {
+  color: transparent;
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  top: 103%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+}
+.pilAdjust {
+  top: 98% !important;
+}
+.pil:hover {
+  border-right: 12px solid #d3531a;
+  border-bottom: 12px solid #d3531a;
+}
+#lootTable {
+  border-collapse: collapse;
+  position: relative;
+  text-align: center;
+  height: 80vh;
+  width: 80vw;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+  padding: 2px;
+  font-size: 12px;
+}
+#compTable {
+  border-collapse: collapse;
+  position: absolute;
+  text-align: center;
+  width: 78vw;
+  top: 10%;
+  left: 44%;
+  transform: translate(-50%);
+}
+#leftTable {
+  border-collapse: collapse;
+  position: absolute;
+  text-align: center;
+  width: 7vw;
+  top: 10%;
+  left: 91.5%;
+  transform: translate(-50%);
+}
+#compTable > tbody > tr > td:not(#firstRow),
+#leftTable > tbody > tr > td,
+.floatingCell > tbody > tr > td {
+  height: 2vh;
+  width: 7vw;
+}
+.glow {
+  outline: none !important;
+  border-left: 1px double #d3531a !important;
+  border-right: 1px double #d3531a !important;
+}
+.glowTop {
+  border-top: 1px double #d3531a !important;
+}
+.glowBottom {
+  border-bottom: 1px double #d3531a !important;
+}
+.floatingCell {
+  padding: 2px;
+  position: absolute;
+  height: auto;
+  width: 7vw;
+  text-align: center;
+  font-size: 12px;
+  border-collapse: collapse;
+  pointer-events: none;
+  background: #333;
+  z-index: 9;
+}
+.spacer {
+  background: #2B2B2B;
+}
+tr:not(.roleDesc) > td.spacer,
+.total,
+#leftTable > tbody > tr:first-child {
+  font-weight: bold;
+}
+.button {
+  position: absolute;
+  top: 5%;
+  width: 5vw;
+  height: 3vh;
+  border: 2px solid #d3531a;
+  border-radius: 8px;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+  background: #333;
+  cursor: pointer;
+}
+.button > span {
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button:hover {
+  background: #d3531a;
+}
+.button:hover > span:nth-child(1) {
+  opacity: 0;
+}
+.button > span:nth-child(2) {
+  opacity: 0;
+  width: 3vh;
+  height: 3vh;
+}
+.button:hover > span:nth-child(2) {
+  opacity: 1;
+}
+#vDisplay {
+  position: absolute;
+  left: 32.5%;
+  top: 5%;
+  font-size: 2.5vw;
+  transform: translate(-50%, -50%);
+}
+.spinner > div {
+  background-color: white;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+.spinner .rect3 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+@-webkit-keyframes sk-stretchdelay {
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+  }
+}
+@keyframes sk-stretchdelay {
+  0%,
+  40%,
+  100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }
+  20% {
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+  }
+}
+#loadingBox {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 175px;
+  height: 75px;
+  border: 2px solid #d3531a;
+  box-shadow: 0 0 15px #d3531a;
+  border-radius: 8px;
+  z-index: 8;
+  background: #333;
+  transition: all 0.5s ease-in-out;
+}
+#loadingText {
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+}
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 72%;
+  margin: auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+#checkFA {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: #00C612;
+  transition: all 0.5s ease-in-out;
+}

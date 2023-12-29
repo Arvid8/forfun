@@ -1,0 +1,12 @@
+{
+  "name": "min_sida",
+  "id": "2463919",
+  "description": "",
+  "gitUrl": "",
+  "workspaceType": "default",
+  "dockerBaseImage": "cloud9/ws-default:2016-01-25T06-39-44Z",
+  "owner": {
+    "name": "arvid8",
+    "id": "1001695"
+  }
+}

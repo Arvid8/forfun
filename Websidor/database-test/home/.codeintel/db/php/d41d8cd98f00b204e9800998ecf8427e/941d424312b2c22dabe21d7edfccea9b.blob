@@ -1,0 +1,1 @@
+<scope ilk="blob" lang="PHP" name="databas.php" src="databas.php"><import line="10" module="test.php" /><variable citdl="array()" line="6" name="tableNames" /><variable line="7" name="i" /></scope>

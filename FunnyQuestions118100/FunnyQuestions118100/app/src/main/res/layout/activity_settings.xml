@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings_rel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:id="@+id/settings_textstorlek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/settings_storlek"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@id/settings_storlek"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="Textstorlek"
+        android:textColor="@color/appSvart"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/settings_storlek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:digits="1234567890"
+        android:gravity="center"
+        android:inputType="number"
+        android:minWidth="40dp"
+        android:text=""
+        android:textColor="@color/appSvart"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/menu_OrangeBild"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-2dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/orange" />
+
+</RelativeLayout>

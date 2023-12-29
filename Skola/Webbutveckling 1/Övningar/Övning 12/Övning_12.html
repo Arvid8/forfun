@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>JavaScript-tutorial 2</title>
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<h1>JavaScript-tutorial 2</h1>
+
+<form>
+	<p>Hur många små foton ser du härunder? <input type="text" id="inText"></p>
+</form>
+<p>
+	<button type="button" onclick="checkAnswer()">Kontrollera svar</button> 
+	<span id="result"></span>
+</p>
+
+<hr>
+
+<p>Klicka på en av de små bilderna!</p>
+<div id="smallPics">
+	<img id="smallImg1" src="pics/small/pic1.jpg" alt="Ekor i en sjö" onclick="showPict(1)">
+	<img id="smallImg2" src="pics/small/pic2.jpg" alt="Fjäril på en äng" onclick="showPict(2)">
+	<img id="smallImg3" src="pics/small/pic3.jpg" alt="Kyrka i Lissabon" onclick="showPict(3)">
+	<img id="smallImg4" src="pics/small/pic4.jpg" alt="En vacker blomma" onclick="showPict(4)">
+	<img id="smallImg5" src="pics/small/pic5.jpg" alt="Formning av glas" onclick="showPict(5)">
+</div>
+
+<div id="largePict">
+	<h3 id="imgText">---</h3>
+	<img id="largeImg" src="pics/transparent.gif" alt="Förstorad bild">
+</div>
+
+<img id="imgBtn" src="pics/qm.gif" alt="Stort frågetecken" onclick="showRandomPict()">
+
+<div id="imgList"></div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="Övning 10.css" rel="stylesheet">
+</head>
+<body>
+
+<form name="formulär" method="post" action="">
+
+<div id="container">
+<h1>Skicka läxa</h1>
+
+<fieldset>
+<legend><b>Ämne</b></legend>
+<input type="text" name="blanknamn" size="40">
+</fieldset>
+
+
+<fieldset id="viktighetsgrad">
+<legend><b>Viktighetsgrad</b></legend>
+<input type="radio" name="viktighetsgrad" value="superviktigt">Superviktigt<br>
+<input type="radio" name="viktighetsgrad" value="viktigt">Viktigt<br>
+<input type="radio" name="viktighetsgrad" value="akut"><span id="röd">AKUT</span>
+</fieldset>
+
+
+<fieldset>
+<legend><b>Läxa</b></legend>
+<textarea name="läxa" rows="3" cols="28"></textarea>
+</fieldset>
+<br>
+<button type="submit">Skicka</button>
+
+</div>
+</body>
+</html>

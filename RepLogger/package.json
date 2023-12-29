@@ -1,0 +1,14 @@
+{
+  "name": "RepLogger",
+  "version": "1.0.0",
+  "description": "Loggs reputation",
+  "main": "bot.js",
+  "author": "Fractial",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^12.1.1",
+    "dotenv": "^8.2.0",
+    "mysql": "^2.18.1",
+    "winston": "^3.2.1"
+  }
+}

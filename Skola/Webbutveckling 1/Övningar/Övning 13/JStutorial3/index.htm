@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JavaScript-tutorial 3</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+<div id="header">
+	<p id="date"></p>
+	<h1>JavaScript-tutorial 3</h1>
+	<img src="pics/fruitbasket.png" alt="Frukkorg" class="floatRight">
+</div> <!-- End "header" -->
+
+<div id="fruitButtons">
+	<img src="pics/buttons/strawberry.jpg" alt="Knapp 1" onclick="chooseFruit('strawberry')">
+	<img src="pics/buttons/pear.jpg" alt="Knapp 2" onclick="chooseFruit('pear')">
+	<img src="pics/buttons/cherry.jpg" alt="Knapp 3" onclick="chooseFruit('cherry')">
+	<img src="pics/buttons/grapes.jpg" alt="Knapp 4" onclick="chooseFruit('grapes')">
+	<img src="pics/buttons/lemon.jpg" alt="Knapp 5" onclick="chooseFruit('lemon')">
+	<img src="pics/buttons/orange.jpg" alt="Knapp 6" onclick="chooseFruit('orange')">
+	<img src="pics/buttons/apple.jpg" alt="Knapp 7" onclick="chooseFruit('apple')">
+	<img src="pics/buttons/banana.jpg" alt="Knapp 8" onclick="chooseFruit('banana')">
+</div> <!-- End "fruitButtons" -->
+
+<div id="main">
+	<h2>Fruktkorgen</h2>
+	<p>Klicka på bilderna till vänster, för att välja frukter.</p>
+	<div id="slideshow">
+		<h4>Valda frukter</h4>
+		<img id="fruitPict" src="pics/fruits/nofruit.jpg" alt="Vald frukt">
+		<button type="button" onclick="prevPict()">Föregående</button>
+		<button type="button" onclick="nextPict()">Nästa</button>
+	</div> <!-- End "slideshow" -->
+</div> <!-- End "main" -->
+
+<div id="info">
+	<p><button type="button" onclick="listFruits()">Lista valda fruktnamn</button></p>
+	<p id="fruitNameList">&nbsp;</p>
+	<p id="fruitPictList">&nbsp;</p>
+	<p><button type="button" onclick="ifAppleChangeLemonsToOranges()">Om äpplen finns,<br>byt citroner mot apelsiner</button></p>
+</div> <!-- End "info" -->
+
+<div id="footer">
+	<p>Laboration i Webbdesign på Linnéuniversitetet</p>
+	<p>Bilder från freedigitalphotos.net</p>
+</div> <!-- End "footer" -->
+
+</body>
+</html>

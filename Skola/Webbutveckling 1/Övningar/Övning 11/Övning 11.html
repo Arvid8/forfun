@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="Övning 11.css" rel="stylesheet">
+<script type="text/javascript" src="Övning 11.js" ></script>
+</head>
+<body>
+
+<div id="container">
+<div id="top">
+<img src="bilder/Klart.jpg" id="moder" usemap="#moder" width="600px" height="500px">
+
+<map name="moder">
+	<area shape="rect" coords="337,11,644,183" href="text/Moder.txt" target="iframe1"/>
+	<area  shape="rect" coords="147,201,225,278" href="text/Processor.txt" target="iframe1"/>
+	<area shape="poly" coords="48,96, 269,2, 316,67, 86,170" href="text/Ram.txt" target="iframe1"/>
+	<area  shape="poly" coords="334,340, 570,191, 649,244, 420,417" href="text/Grafik.txt" target="iframe1"/>
+	<area shape="poly" coords="15,402, 238,354, 329,448, 89,510" href="https://www.komplett.se/samsung-ssd-850pro-1tb-ssd/820613" target="iframe1"/>
+</map>
+
+<iframe name="iframe1" id="iframe" width="400px" height="500px">
+</iframe>
+</div>
+
+<form name="formulär" method="post" action="">
+
+<div id="v-bottom">
+
+<label>Här kan ni beställa hårdvara.</label><br><br>
+<label>Vilken storlek på hårddisk?</label><br>
+<input type="radio" name="hårddisk" id=1>200 GB (pris)<br>
+<input type="radio" name="hårddisk" id=2>500 GB (pris)<br>
+<input type="radio" name="hårddisk" id=3>1 TB (pris)<br><br>
+
+<label>Vilken processor?</label><br>
+<input type="radio" name="processor" id=11>(pris)<br>
+<input type="radio" name="processor" id=12>(pris)<br>
+<input type="radio" name="processor" id=13>(pris)<br><br>
+
+<label>Vilken storlek på minne?</label><br>
+<input type="radio" name="minne"  id=21>2 GB (pris)<br>
+<input type="radio" name="minne"  id=22>4 GB (pris)<br>
+<input type="radio" name="minne"  id=23>8 GB (pris)<br><br>
+
+<label>Vilken processor?</label><br>
+<input type="radio" name="grafikkort"  id=31>(pris)<br>
+<input type="radio" name="grafikkort"  id=32>(pris)<br>
+<input type="radio" name="grafikkort"  id=33>(pris)<br><br>
+</div>
+
+<div id="h-bottom">
+
+<label>Här kan ni beställa mjukvara.</label><br><br>
+<label>Vilket operativsystem?</label><br>
+<input type="radio" name="OS"  id=41>Windows 7 (pris)<br>
+<input type="radio" name="OS"  id=42>Windows Vista (pris)<br>
+<input type="radio" name="OS"  id=43>Linux (pris)<br><br>
+
+<label>Vilka program ska ingå?</label><br>
+<input type="checkbox" name="program"  id=51>Officepaketet<br>
+<input type="checkbox" name="program"  id=52>Photoshop<br>
+<input type="checkbox" name="program"  id=53>Dreamweaver<br><br>
+
+<label>Dina uppgifter:</label><br>
+<input type="text" size="20" name="Namn" placeholder="Namn"  id=62><br>
+<input type="text" size="20" name="Mailadress" placeholder="Mailadress"  id=61><br>
+<input type="text" size="20" name="Gatuadress" placeholder="Gatuadress"  id=63><br>
+<input type="text" size="20" name="Postadress" placeholder="Postadress"  id=64><br><br>
+
+<button type="reset">Rensa</button>
+<button type="submit" onclick="getInfo()">Skicka</button>
+
+</div>
+</div>
+</form>
+</body>
+</html>

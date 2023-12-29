@@ -1,0 +1,12 @@
+{
+  "name": "scollsite",
+  "id": "2977090",
+  "description": "",
+  "gitUrl": "",
+  "workspaceType": "html5",
+  "dockerBaseImage": "cloud9/ws-html5:2016-03-16T18-50-44Z",
+  "owner": {
+    "name": "arvid8",
+    "id": "1001695"
+  }
+}

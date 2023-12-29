@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>BreadSpot</title>
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="Bilder/favicon.ico" />
+
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="Styles/css/style.css">
+    <link rel="stylesheet" href="Styles/css/menu-style.css">
+    <link rel="stylesheet" href="Styles/css/antiscroll.css">
+    <!-- CSS STYLES -->
+
+    <!-- SCRIPTS -->
+    <!-- LINK TO JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="Script/jqueryColor.js"></script>
+
+    <!-- LINK TO USER CREATED SCRIPTS -->
+    <script type="text/javascript" src="Script/script.js"></script>
+    <script type="text/javascript" src="Script/menuScript.js"></script>
+    <script type="text/javascript" src="Script/fadeContentScript.js"></script>
+    <!-- CUSTOM SCROLLBAR -->
+    <script type="text/javascript" src="Script/antiscroll.js"></script>
+    <!-- SCRIPTS -->
+    <!-- GOOGLE MAPS API -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
+    <script type="text/javascript" src="Script/googleMaps.js"></script>
+    <script src="Script/markerwithlabel.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="loading" style="position: fixed; z-index: 100; background: white; width: 100%; height: 100%;"></div>
+    <div class="antiscroll-wrap">
+        <div id="container" class="antiscroll-inner">
+            <div class="dropitdown" id="menu-list-kontakt">
+                <ul>
+                    <li><a class="dropBottom">Återförsäljare</a></li>
+                </ul>
+            </div>
+            <div class="dropitdown" id="menu-list-historia">
+                <ul>
+                    <li><a>Brödets historia</a></li>
+                    <li><a>Saffranbrödets historia</a></li>
+                    <li><a>Semlans historia</a></li>
+                    <li><a>Gustav Adolfs bakelse</a></li>
+                    <li><a>Svenska brödets historia</a></li>
+                    <li><a class="dropBottom">Pepparkakans histora</a></li>
+                </ul>
+            </div>
+            <div id="topcontainer">
+                <header>
+                    <a href="index.html"><img src="Bilder/Logo-notext.png" id="loga" /></a>
+                    <h1><span id="colorAnimate">BreadSpot<span id="dotAnimate" onclick="dotAnimateStuff()">.</span></span></h1>
+                </header>
+                <nav id="cssmenu">
+                    <ul>
+                        <li id="liHem">
+                            <a id="hem" onclick="hemFade()">HEM</a>
+                        </li>
+                        <li id="liSortiment">
+                            <a id="sortiment" onclick="sortimentFade()">SORTIMENT</a
+                    </li>
+                    <li id="liKontakt">
+                        <a id="kontakt" onclick="kontaktFade()">KONTAKT</a>
+                        </li>
+                        <li class="active" id="liHistoria">
+                            <a id="historia" onclick="historiaFade()">HISTORIA</a>
+                        </li>
+                        <li id="liHittahit">
+                            <a id="hittahit" onclick="hittahitFade()">HITTA HIT</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <img id="bread" src="Bilder/transparent.png" />
+            <article>
+                <div id="fromSide">
+                    <section class="hemSection">
+                        <img src="Bilder/breadInSquare/1.jpg" />
+                    </section>
+                    <section class="hemSection">
+                        <img style="float:left;" src="Bilder/breadInSquare/h1.jpg" />
+                        <div class="textDIV">
+                            <h2>Aenean aliquet</h2>
+                            <p>Eget tempor augue dictum id. Pellentesque maximus, sapien sed malesuada feugiat, lacus sem vestibulum metus, a efficitur odio augue posuere ipsum. Nullam eget feugiat lectus. Mauris egestas risus nisi, ac malesuada enim semper vitae. Nunc vulputate hendrerit diam ac varius.</p>
+                        </div>
+                    </section>
+                    <section class="hemSection">
+                        <img style="float:left;" src="Bilder/breadInSquare/h2.jpg" />
+                        <div class="textDIV">
+                            <h2>Vivamus suscipit</h2>
+                            <p>Pellentesque in orci lorem. Aliquam iaculis, mi ac placerat lacinia, magna augue venenatis magna, ut euismod ipsum felis sed neque. Donec eu lorem non urna tempus varius non in tellus. Ut posuere libero eget rhoncus placerat.</p>
+                        </div>
+                    </section>
+                    <section class="hemSection">
+                        <img src="Bilder/breadInSquare/2.jpg" />
+                    </section>
+
+                    <section class="kontaktSection">
+                        <img src="Bilder/kontakt/1.jpg" />
+                    </section>
+
+                    <section class="kontaktSection">
+                        <div id="kontaktText">
+                            <h2>Kontaktuppgifter</h2>
+                            <p>Måndag - Fredag:
+                                <br>Lördag:
+                                <br>Söndag: </p>
+                            <p>07:30-17:30
+                                <br>09:00-16:00
+                                <br>Stängt </p>
+                            <p>Telefon: 1234-567890
+                                <br>E-post: info@breadspot.se
+                                <br>
+                                <br>Adress:
+                                <br>Nygatan 30
+                                <br>392 34 Kalmar
+                                <br>
+                                <br>
+                                <br><span style="font-size: 120%;">Varmt Välkomna!</span>
+                            </p>
+                        </div>
+                    </section>
+
+                    <section class="historiaSection" id="historiaLeft">
+                        <img src="Bilder/historia/1.jpg" />
+                    </section>
+
+                    <section class="historiaSection">
+                        <div id="historiaText">
+                            <h2>BreadSpots historik</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nisi hendrerit, sodales ex nec, posuere ex. Curabitur ut nibh in tortor dignissim scelerisque sit amet vel urna. Nam condimentum felis sit amet fringilla finibus. Vestibulum non convallis velit. Cras malesuada urna sodales tincidunt maximus. Aliquam quis orci at felis vulputate auctor. Proin id leo orci. Cras tincidunt iaculis enim vel volutpat. Maecenas suscipit orci nisl, vitae dapibus arcu dapibus sit amet. Curabitur aliquet dui id faucibus lacinia. Ut accumsan ligula ut consectetur pretium.
+                                <br>
+                                <br> Duis maximus dolor ac ipsum tincidunt auctor. Nunc rhoncus metus nunc, quis porttitor quam molestie nec. Curabitur at posuere ex. Aliquam tincidunt semper elementum. Donec pharetra rutrum consequat. In ullamcorper lobortis auctor. Ut condimentum augue felis, rutrum imperdiet elit luctus quis. Duis facilisis turpis vel elit congue condimentum. Etiam vitae blandit sapien, scelerisque ullamcorper metus. Duis lacinia libero non massa tincidunt, vitae imperdiet augue aliquet. Sed elementum leo et nunc congue, in suscipit libero vestibulum. In hac habitasse platea dictumst. Aliquam nulla nisi, placerat in bibendum ac, faucibus ut ligula. In elit nibh, molestie quis tempus a, euismod non ipsum.
+                                <br>
+                                <br> Integer sodales, purus eget pulvinar rhoncus, lorem lacus mollis dui, sit amet fermentum ligula nibh et justo. Maecenas consectetur purus quis luctus tempus. Donec nec dui ac est mollis vulputate nec ac massa. Suspendisse potenti. Etiam elit turpis, egestas sed fringilla quis, auctor in dolor. Donec congue faucibus turpis, in scelerisque risus volutpat eu. Vestibulum at scelerisque sem. Sed quis turpis risus. Nunc metus dolor, malesuada nec erat at, luctus fringilla lacus. Integer auctor ultrices velit a pellentesque. Ut ac lectus et dui consequat commodo. Fusce rhoncus eu sapien a efficitur. Donec sed bibendum urna. Nullam et lacus commodo, mollis purus eleifend, finibus ipsum. Sed quis justo egestas, pretium justo ac, tincidunt ex.
+                                <br>
+                                <br> Välkomna.
+                            </p>
+                        </div>
+                    </section>
+
+                    <section class="hittahitSection" id="map">
+                    </section>
+
+                    <section class="sortimentSection" id="breadSection"><img src="Bilder/sortiment/1.png" />
+                        <div><span>Bröd ></span></div>
+                    </section>
+                    <section class="sortimentSection" id="kakorSection"><img src="Bilder/sortiment/2.png" />
+                        <div><span>Kakor ></span></div>
+                    </section>
+                    <section class="sortimentSection" id="cakesSection"><img src="Bilder/sortiment/3.png" />
+                        <div><span>Tårtor ></span></div>
+                    </section>
+                    <section class="sortimentSection" id="saladSection"><img src="Bilder/sortiment/4.png" />
+                        <div><span>Sallad ></span></div>
+                    </section>
+                </div>
+            </article>
+            <footer>
+                <div id="bottomStuff">
+                    <ul id="bmeny">
+                        <li><strong>Kontakt:</strong></li>
+                        <li>Nygatan 30</li>
+                        <li>392 34 Kalmar</li>
+                        <li>Telefon: 1234-567890</li>
+                        <li>E-post: info@breadspot.se</li>
+                    </ul>
+                    <img src="Bilder/logo-text.png" id="loga-bottom" alt="" />
+                </div>
+                <div id="copy">&copy; Arvid Persson 2016</div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

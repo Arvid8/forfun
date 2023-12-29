@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Frågor och Svar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_om_mig">OmMigActivity</string>
+    <string name="långtext">Hej! Jag heter Arvid Persson och går 3:e året på Teknikprogrammet på Fria Läroverken i Kalmar. Detta är mitt gymnasiearbete, arbetet är utfört från 18/08-2015 till 13/06-2016. Denna app har jag själv byggt upp från grunden. Appens syfte är att underhålla dig när du har lite tid att slå ihjäl. I appen kan du finna 10st olika roliga frågor och svar som slumpas ut. Hoppas att du tycker om appen! :)</string>
+    <string name="menu_om_mig">OM MIG</string>
+    <string name="menu_slumpa_fråga">SLUMPA FRÅGA</string>
+    <string name="question_svar">Svar:</string>
+    <string name="question_fråga">Fråga:</string>
+    <string name="question_tillbaka">TILLBAKA</string>
+    <string name="question_nästa_fråga">NÄSTA FRÅGA</string>
+    <string name="title_activity_settings">Inställningar</string>
+    <string name="inställningar">Inställningar</string>
+</resources>

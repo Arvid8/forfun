@@ -1,0 +1,55 @@
+#masthead-positioner-height-offset {
+    height: 50px !important;
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#watch7-sidebar {
+    margin-top: 0px !important;
+    top: 0px !important;
+}
+
+.player-apis {
+    position: relative;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: black;
+}
+
+.player-apis > div:nth-child(1) {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: red;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 0px;
+    border-radius: 300px;
+    top: 100%;
+    left: 50%;
+    cursor: ns-resize;
+}
+
+.player-apis > div:nth-child(2) {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    white-space: nowrap;
+}
+
+#watch7-container {}

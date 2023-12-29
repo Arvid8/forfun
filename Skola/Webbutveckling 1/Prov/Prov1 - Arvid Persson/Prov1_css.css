@@ -1,0 +1,95 @@
+.bivax {
+height: 150px;
+width: 150px;
+border: 4px black solid;
+}
+
+.bivax1 {
+text-align: center;
+}
+
+.h2 {
+width: 50%;
+margin-bottom: 0px;
+}
+
+h3 {
+margin-top: 0px;
+width: 85%;
+}
+
+h4 {
+margin-bottom: 0px;
+width: 35%;
+}
+
+.validerad {
+color: red;
+}
+
+.rad {
+width: 40%;
+margin-left: 0px;
+}
+
+.link_färg {
+color: gray;
+font-size: 20px;
+}
+
+.vax_text {
+margin-right: 5%;
+text-align: center;
+}
+
+.stycke3 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.bort {
+margin-top: 0px;
+}
+
+.sträck1 {
+margin-left: 0px;
+width: 90%;
+}
+
+.grön {
+color:green;
+}
+
+.bara{
+color:black;
+font-weight: bold;
+}
+
+.stycke2{
+width: 55%;
+}
+
+a:hover {
+   text-decoration:underline;
+}
+
+table {
+border-width: 0px
+}
+
+.sistastycke{
+width: 65%;
+}
+
+body {
+margin-left: 100px;
+margin-right: 20px;
+margin-top: 100px;
+}
+
+a {
+text-decoration: none;
+}
+
+p {
+font-size: 14px;
+}

@@ -1,0 +1,39 @@
+body {
+float: left;
+display: inline-block;
+
+}
+
+#container {
+background: lightblue;
+width: 1120px;
+border: 2px black solid;
+margin-left: 150px;
+height: 970px;
+}
+
+#iframe {
+margin-left: 50px;
+margin-bottom: 10px;
+background: white;
+}
+
+#top {
+border-bottom: 2px black solid;
+}
+
+#v-bottom {
+float: left;
+width: 530px;
+border-right: 2px black solid;
+padding: 10px;
+    height: 430px;
+}
+
+#h-bottom {
+float: right;
+width: 530px;
+padding: 10px;
+}
+
+

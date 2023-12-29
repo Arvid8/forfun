@@ -1,0 +1,12 @@
+{
+  "name": "wow_ah",
+  "id": "6774876",
+  "description": "",
+  "gitUrl": "",
+  "workspaceType": "html5",
+  "dockerBaseImage": "cloud9/ws-html5:2017-08-31T12-15-07Z",
+  "owner": {
+    "name": "arvid8",
+    "id": "1001695"
+  }
+}

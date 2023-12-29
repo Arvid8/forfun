@@ -1,0 +1,113 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+body {
+font-family: Calibri;
+}
+
+#container {
+border: 1px black solid;
+margin: 20px auto;
+width: 800px;
+height: 640px;
+}
+
+#huvud {
+float: left;
+text-align: center;
+font: bold 15px Tahoma;
+color: white;
+padding: 10px;
+border-bottom: 1px black solid;
+width: 580px;
+background-color: Tomato;
+}
+
+#aside_höger {
+float: right;
+text-align: center;
+width: 179px;
+padding: 10px;
+border-left: 1px black solid;
+background-color: yellow;
+height: 561px;
+}
+
+.divs  {
+margin: 10px;
+padding: 5px;
+border: 1px red solid;
+background-color: white;
+}
+
+ul {
+border: 1px black solid; 
+text-align: left;
+margin: 10px;
+padding: 5px;
+background: white;
+padding: 10px;
+}
+
+ul li {
+color: blue;
+list-style-type: none;
+}
+
+#aside_vänster {
+float: left;
+text-align: center;
+width: 179px;
+padding: 10px;
+border-right: 1px black solid; 
+background-color: lime;
+height: 510px
+}
+
+article {
+float: left;
+background: lightgray;
+padding: 5px;
+width: 390px;
+height: 520px;
+margin: 0px;
+}
+
+h1 {
+margin: 0px;
+padding: 0px;
+font-size: 25px;
+}
+
+h2 {
+margin: 0px;
+padding: 0px;
+font-size: 20px;
+}
+
+section {
+margin: 15px;
+}
+
+footer {
+float: left;
+font-size: 25px;
+background: gray;
+border-top: 1px black solid;
+width: 800px;
+height: 58px;
+text-align: center;
+line-height: 58px;
+}
+
+img {
+width: 220px;
+height: 150px;
+}
+
+a {
+text-decoration: none;
+color: blue;
+}

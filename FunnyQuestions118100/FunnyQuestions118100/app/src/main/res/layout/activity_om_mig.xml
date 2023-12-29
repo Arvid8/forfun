@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OmMigActivity">>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@id/menu_OrangeBild"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/ommig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Om Mig"
+            android:textColor="@color/appSvart"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ommig"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/presentation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/långtext"
+                android:textColor="@color/appSvart"
+                android:textSize="22sp" />
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/menu_OrangeBild"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginBottom="-2dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/orange" />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+#container {
+margin: auto;
+text-align: center;
+width: 300px;
+font-family: Tahoma;
+}
+
+#röd {
+color: red;
+font-weight: bold;
+}
+
+#viktighetsgrad {
+text-align:left;
+}
+
+textarea {
+font: 15px "Tahoma";
+}

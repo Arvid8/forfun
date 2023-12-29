@@ -1,0 +1,20 @@
+{
+    "name": "Youtube Resize",
+    "description": "Hej",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    "browser_action": {
+        "default_icon": {
+            "128": "images/logo.png"
+        },
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://www.youtube.com/*"],
+            "css": ["ytFiles/style.css"],
+            "js": ["jquery.js", "ytFiles/script.js"]
+        }
+    ]
+}
